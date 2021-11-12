@@ -1,0 +1,222 @@
+body {
+  background-image: url(bground.png);
+  background-size: cover;
+}
+
+#background {
+  width: 300px;
+  background: gray;
+  opacity: 0.8;
+  margin: 80px auto;
+  border: 2px solid rgb(3, 255, 255);
+  padding-bottom: 10px;
+  -webkit-animation: bgubah 4s 3s alternate infinite;
+  transition: all 2s ease;
+}
+
+button {
+  border: 0;
+  color: #fff;
+}
+#main {
+  margin-top: 20%;
+  margin-left: 10px;
+  margin-bottom: 10%;
+}
+
+#result {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border-radius: 10px;
+  width: 230px;
+  height: 60px;
+  left: 10px;
+  text-align: right;
+  border: 0;
+  background: #3b3535;
+  color: #fff;
+  padding-top: 20px;
+  font-size: 20px;
+  margin-left: 25px;
+  outline: none;
+  overflow: hidden;
+  letter-spacing: 4px;
+  position: relative;
+  top: 40px;
+}
+
+#result:hover {
+  cursor: text;
+  border: 1px solid rgb(3, 203, 253);
+}
+
+#first-rows {
+  margin-bottom: 20px;
+  position: relative;
+  top: 10px;
+}
+
+.rows {
+  width: 300px;
+  margin-top: 10px;
+}
+
+#delete {
+  width: 110px;
+  height: 50px;
+  margin-left: 25px;
+  border-radius: 4px;
+}
+
+.fall-back {
+  margin-left: 3px !important;
+}
+
+.align {
+  margin-left: 6px !important;
+}
+
+/* Button styling */
+.btn-style {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+.btn-style:hover,
+.num-bg:hover,
+.opera-bg:hover {
+  color: #47b3fa;
+}
+
+.eqn {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+
+.first-child {
+  margin-left: 25px;
+}
+
+/* bgound tombol nomer*/
+.num-bg {
+  background: #000;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 3px solid #333;
+}
+
+.num-bg:active {
+  background: #000;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: inset 2px 2px 5px rgb(61, 60, 60),
+    inset -2px -2px 5px rgb(66, 66, 66);
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+/*bg operator */
+.opera-bg {
+  background: #333;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 3px solid #555;
+}
+
+.opera-bg:active {
+  background: #333;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: inset 2px 2px 5px rgb(61, 60, 60),
+    inset -2px -2px 5px rgb(66, 66, 66);
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+/*delet */
+.del-bg {
+  background: #24b4de;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  outline: none;
+
+  border: 1px solid #575858;
+}
+
+.del-bg:active {
+  background: #24b4de;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  outline: none;
+
+  box-shadow: inset 4px 4px 4px #399cb9, inset -2px -2px 5px rgb(68, 67, 67);
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+.del-bg:hover {
+  color: #1d1f1d;
+}
+
+/*samadengan */
+#eqn-bg {
+  background: #17a928;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 3px solid #1f7a29;
+}
+#eqn-bg:hover {
+  color: black;
+}
+
+#eqn-bg:active {
+  background: #17a928;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: inset 4px 4px 4px #1f7a29, inset -2px -2px 5px rgb(66, 66, 66);
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+/* @-webkit-keyframes bgubah {
+  0% {
+    background: #aad4d1;
+  }
+  30% {
+    background: #6ac1db;
+  }
+
+  50% {
+    background: #3b71d6;
+  }
+  70% {
+    background: #ffffff;
+  }
+  90% {
+    background: #808080;
+  }
+
+  100% {
+    background: #28aed6;
+  }
+} */
