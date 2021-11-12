@@ -13,13 +13,7 @@ window.onload = function () {
       function () {
         num = this.value;
 
-        output = screen.innerHTML += num;
-
-        limit = output.length;
-
-        if (limit > 10000000) {
-          alert("Sorry no more input is allowed");
-        }
+        output = screen.innerHTML += num;  
       },
       false
     );
