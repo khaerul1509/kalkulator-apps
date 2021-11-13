@@ -5,7 +5,7 @@ window.onload = function () {
 
   var elem = document.querySelectorAll(".num");
 
-  var len = elem;
+  var len = elem.length;
 
   for (var i = 0; i < len; i++) {
     elem[i].addEventListener(
@@ -15,7 +15,7 @@ window.onload = function () {
 
         output = screen.innerHTML += num;
 
-        limit = output;
+        limit = output.length;
 
         if (limit > 20) {
           alert("Sorry no more input is allowed");
